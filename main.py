@@ -216,8 +216,6 @@ async def help(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "/user_id - ID olish\n"
         "/change_lang - Tilni o‘zgartirish\n"
         "/history - Tarjima tarixi\n"
-        "/users - Foydalanuvchilar (admin)\n"
-        "/stats - Statistika (admin)\n"
         "Yozgan matningiz tarjima qilinadi."
     )
     logging.info(f"User {update.effective_user.id} requested help")
